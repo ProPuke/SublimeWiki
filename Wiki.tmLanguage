@@ -50,7 +50,7 @@
 			<key>comment</key>
 			<string>Markdown-style italics</string>
 			<key>match</key>
-			<string>[^\*_](\*|_)[^\*_]+?(\*|_)[^\*_]</string>
+			<string>(?&lt;![\*_])(\*|_)[^\*_]+?(\*|_)(?![\*_])</string>
 			<key>name</key>
 			<string>markup.italic.Wiki</string>
 		</dict>
